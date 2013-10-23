@@ -1,0 +1,19 @@
+{
+    "name": "make-db/make-db",
+    "keywords": ["database","automation","data"],
+    "description": "Automation of database tasks",
+    "homepage": "https://github.com/ilanfrumer/make-db",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilan Frumer",
+            "email": "ilanfrumer@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": { "MakeDB": "." }
+    }    
+}
